@@ -17,5 +17,5 @@ This project demonstrates how to perform **CRUD operations** (Create, Read, Upda
 ## 🛠️ Technologies Used
 - Java 
 - JDBC (Java Database Connectivity)
-- MySQL (can be replaced with other RDBMS)
+- MySQL
 - SQL  
