@@ -1,11 +1,12 @@
 # Student Database App (JDBC)
+---
 
 ## ⚙️ Project Overview
 This is a simple **console-based Java application** that allows managing student records (Add, View, Update, Delete) using **JDBC** to connect with a MySQL database.
 
 The project demonstrates basic **CRUD operations** and serves as a mini-project for understanding how Java applications interact with relational databases.
 
----
+
 
 ## 🚀 Features
 - Add new student records  
