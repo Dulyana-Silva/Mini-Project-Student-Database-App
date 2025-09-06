@@ -14,7 +14,7 @@ The project demonstrates basic **CRUD operations** and serves as a mini-project 
 <img width="600" height="200" alt="image" src="https://github.com/user-attachments/assets/97384385-8037-4a93-bfa2-65402964cbed" />
 
 ### 2. Configure the App
-- Place the MySQL Connector/J (.jar file) inside a lib folder in your project.
+- Place the MySQL Connector/J (.jar file) inside a lib folder in the project.
 - This allows Java to connect to the MySQL database through JDBC.
 
 ### 3. Compile & Run
@@ -27,9 +27,9 @@ The project demonstrates basic **CRUD operations** and serves as a mini-project 
 - MySQL
   
 ## 🔑 Important Notes
-- The *id* field is an AUTO_INCREMENT primary key.
-- This means that once a record is **deleted**, its ID is **not reused.**
-- This is **normal behavior** in MySQL and ensures data consistency.
+- The id column is set as AUTO_INCREMENT PRIMARY KEY.
+- This means that once a record is **deleted**, its ID is **not reused.** 
+- This is **normal behavior** in MySQL to ensures data consistency.
 
 
 
