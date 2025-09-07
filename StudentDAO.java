@@ -15,7 +15,7 @@ public class StudentDAO {
         }
     }
 
-    public List<Student> getAllStudents() throws SQLException {
+    public List<Student> viewStudents() throws SQLException {
         List<Student> students = new ArrayList<>();
         String sql = "SELECT * FROM students";
         try (Connection conn = DatabaseConnection.connect();
@@ -54,3 +54,4 @@ public class StudentDAO {
         }
     }
 }
+
