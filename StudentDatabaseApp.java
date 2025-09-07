@@ -35,7 +35,7 @@ public class StudentDatabaseApp {
                         System.out.println("Student added!");
                     }
                     case 2 : {
-                        List<Student> students = dao.getAllStudents();
+                        List<Student> students = dao.viewStudents();
                         if (students.isEmpty()) {
                             System.out.println("No students found.");
                         } else {
@@ -74,3 +74,4 @@ public class StudentDatabaseApp {
         }
     }
 }
+
